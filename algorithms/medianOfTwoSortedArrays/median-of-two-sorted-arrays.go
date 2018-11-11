@@ -18,13 +18,13 @@ nums1 = [1, 2]
 nums2 = [3, 4]
 
 The median is (2 + 3)/2 = 2.5
- */
-package main
+*/
+package medianOfTwoSortedArrays
 
 import "fmt"
 
 func main() {
-	fmt.Println(findMedianSortedArrays([]int{1, 2, 3, 4}, []int{4,10000}))
+	fmt.Println(findMedianSortedArrays([]int{1, 2, 3, 4}, []int{4, 10000}))
 }
 
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
@@ -36,26 +36,26 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	for i < len1 && j < len2 && k <= t {
 		if nums1[i] <= nums2[j] {
 			num[k] = nums1[i]
-			i ++
+			i++
 		} else {
 			num[k] = nums2[j]
-			j ++
+			j++
 		}
-		k ++
+		k++
 		fmt.Println(i, j, num)
 	}
 
 	for i < len1 && k <= t {
 		num[k] = nums1[i]
-		i ++
-		k ++
+		i++
+		k++
 		fmt.Println(i, j, num)
 	}
 
 	for j < len2 && k <= t {
 		num[k] = nums2[j]
-		j ++
-		k ++
+		j++
+		k++
 		fmt.Println(i, j, num)
 	}
 

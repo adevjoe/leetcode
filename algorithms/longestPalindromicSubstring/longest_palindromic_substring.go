@@ -3,8 +3,8 @@ Given a string s, find the longest palindromic substring in s. You may assume th
 the maximum length of s is 1000.
 
 https://leetcode.com/problems/longest-palindromic-substring/description/
- */
-package main
+*/
+package longestPalindromicSubstring
 
 import "fmt"
 
@@ -15,7 +15,7 @@ func main() {
 func longestPalindrome(s string) string {
 	l := ""
 	for a := 0; a < len(s); a++ {
-		for b := a+1; b <= len(s); b++ {
+		for b := a + 1; b <= len(s); b++ {
 			ss := s[a:b]
 			if len(ss) > len(l) && isPalindrome(ss) {
 				l = ss

@@ -13,7 +13,7 @@ A   L S  I G
 Y A   H R
 P     I
 */
-package main
+package zigzagConversion
 
 import "fmt"
 
