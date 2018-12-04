@@ -51,15 +51,57 @@ import (
 )
 
 func main() {
-	fmt.Println(myAtoi("0-1"))
+	str := "   -422w"
+	fmt.Println(myAtoi(str))
+	fmt.Println(atoi(str))
 }
 
+// 整理为四个规则 1.检测空白 2.排除字母 3.记录符号 4.避免溢出
+// 优化改进，执行效率提升1倍
+// 之前连字母也会检验，现在不是空白符、数字和符号的直接 break，起到提前退出程序的效果，减少程序运行次数
+func atoi(str string) int {
+	num := 0
+	sign := ""
+	start := false // 一旦解析到数字或符号则为 true
+	for key := range str {
+		// 校验空白符
+		if str[key:key+1] == " " && !start {
+			continue
+		}
+		// 校验符号
+		if (str[key:key+1] == "+" || str[key:key+1] == "-") && !start {
+			start = true
+			sign = str[key : key+1]
+			continue
+		}
+		// 校验数字
+		if str[key:key+1] >= "0" && str[key:key+1] <= "9" {
+			// 检测溢出
+			if num > math.MaxInt32/10 || (num == math.MaxInt32/10 && str[key:key+1] > "7") {
+				if sign == "-" {
+					return math.MinInt32
+				}
+				return math.MaxInt32
+			}
+			start = true
+			num = num*10 + int(str[key]) - 48
+			continue
+		}
+		// 不符合上述规则的直接结束
+		break
+	}
+	if sign == "-" {
+		num = -num
+	}
+	return num
+}
+
+// 初次提交
 func myAtoi(str string) int {
 	i := 0
 	sign := 0 // 0 无符号 / 1 + / 2 -
 	hasNum := false
 	a := []byte(str)
-	fmt.Println(a)
 	for _, value := range a {
 		// 排除字母
 		if value < 48 || value > 57 {
