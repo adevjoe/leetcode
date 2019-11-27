@@ -3,10 +3,27 @@
 package three_sum_closest
 
 import (
+	"math"
 	"sort"
 )
 
 func ThreeSumClosest(nums []int, target int) int {
+	result := nums[0] + nums[1] + nums[len(nums)-1]
 	sort.Ints(nums)
-	return 0
+	for i := 0; i < len(nums)-2; i++ {
+		start := i + 1
+		end := len(nums) - 1
+		for start < end {
+			sum := nums[i] + nums[start] + nums[end]
+			if sum > target {
+				end--
+			} else {
+				start++
+			}
+			if math.Abs(float64(sum-target)) < math.Abs(float64(result-target)) {
+				result = sum
+			}
+		}
+	}
+	return result
 }
