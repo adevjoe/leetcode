@@ -14,3 +14,6 @@ fmt:
 
 lint:
 	@golint $(ALGORITHMS_DIR)
+
+mod:
+	@go mod download
