@@ -7,7 +7,7 @@ all: fmt test
 
 test:
 	@echo "testing..."
-	@go test -race -coverprofile coverage.txt $(ALGORITHMS_DIR)/...
+	@go test -race -coverprofile coverage.out $(ALGORITHMS_DIR)/...
 
 fmt:
 	@./fmt.sh
