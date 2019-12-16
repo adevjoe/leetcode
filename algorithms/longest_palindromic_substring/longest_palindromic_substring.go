@@ -2,7 +2,7 @@
 
 package longest_palindromic_substring
 
-func LongestPalindrome(s string) string {
+func longestPalindrome(s string) string {
 	l := ""
 	for a := 0; a < len(s); a++ {
 		for b := a + 1; b <= len(s); b++ {

@@ -2,7 +2,7 @@
 
 package container_with_most_water
 
-func MaxArea(height []int) int {
+func maxArea(height []int) int {
 	left := 0
 	right := len(height) - 1
 	maxArea := 0

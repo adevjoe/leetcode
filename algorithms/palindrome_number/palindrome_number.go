@@ -2,7 +2,7 @@
 
 package palindrome_number
 
-func IsPalindrome(x int) bool {
+func isPalindrome(x int) bool {
 	// filter
 	// -121 is false
 	if x < 0 {

@@ -7,7 +7,7 @@ import (
 	"sort"
 )
 
-func ThreeSumClosest(nums []int, target int) int {
+func threeSumClosest(nums []int, target int) int {
 	result := nums[0] + nums[1] + nums[len(nums)-1]
 	sort.Ints(nums)
 	for i := 0; i < len(nums)-2; i++ {

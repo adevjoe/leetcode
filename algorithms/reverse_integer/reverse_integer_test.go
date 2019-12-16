@@ -6,5 +6,5 @@ import (
 )
 
 func TestReverse(t *testing.T) {
-	fmt.Println(Reverse(2147483647))
+	fmt.Println(reverse(2147483647))
 }

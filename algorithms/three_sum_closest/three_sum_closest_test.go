@@ -22,7 +22,7 @@ var testCase = []testutil.TestCase{
 
 func TestThreeSumClosest(t *testing.T) {
 	for _, c := range testCase {
-		if get := ThreeSumClosest(c.Args.([]interface{})[0].([]int), c.Args.([]interface{})[1].(int)); get != c.Want {
+		if get := threeSumClosest(c.Args.([]interface{})[0].([]int), c.Args.([]interface{})[1].(int)); get != c.Want {
 			t.Errorf("ThreeSumClosest error with nums: %v, target: %d, get: %v, want: %v",
 				c.Args.([]interface{})[0].([]int), c.Args.([]interface{})[1].(int), get, c.Want)
 		}

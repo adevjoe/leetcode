@@ -2,7 +2,7 @@
 
 package median_of_two_sorted_arrays
 
-func FindMedianSortedArrays(nums1 []int, nums2 []int) float64 {
+func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	len1, len2 := len(nums1), len(nums2)
 	num := make([]int, len1+len2, len1+len2)
 	t := (len1 + len2) / 2

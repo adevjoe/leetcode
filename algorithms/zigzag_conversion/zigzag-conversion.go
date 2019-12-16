@@ -2,7 +2,7 @@
 
 package zigzag_conversion
 
-func Convert(s string, numRows int) string {
+func convert(s string, numRows int) string {
 	if s == "" {
 		return ""
 	}

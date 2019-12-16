@@ -6,7 +6,7 @@ import (
 )
 
 func TestLongestCommonPrefix(t *testing.T) {
-	fmt.Println(LongestCommonPrefix([]string{"flower", "flow", "flight"}))
-	fmt.Println(LongestCommonPrefix([]string{"dog", "racecar", "car"}))
-	fmt.Println(LongestCommonPrefix([]string{}))
+	fmt.Println(longestCommonPrefix([]string{"flower", "flow", "flight"}))
+	fmt.Println(longestCommonPrefix([]string{"dog", "racecar", "car"}))
+	fmt.Println(longestCommonPrefix([]string{}))
 }

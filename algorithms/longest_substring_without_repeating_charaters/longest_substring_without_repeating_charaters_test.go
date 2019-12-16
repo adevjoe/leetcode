@@ -9,7 +9,7 @@ import (
 func TestLengthOfLongestSubstring(t *testing.T) {
 	s := "abba"
 	s1 := time.Now().UnixNano()
-	fmt.Println(LengthOfLongestSubstring(s))
+	fmt.Println(lengthOfLongestSubstring(s))
 	s2 := time.Now().UnixNano()
 	fmt.Println(s2 - s1)
 	fmt.Println(lengthOfLongestSubstring2(s))
@@ -20,7 +20,7 @@ func TestLengthOfLongestSubstring(t *testing.T) {
 func BenchmarkLengthOfLongestSubstring(b *testing.B) {
 	s := "pwwkew"
 	for n := 0; n < b.N; n++ {
-		LengthOfLongestSubstring(s)
+		lengthOfLongestSubstring(s)
 	}
 }
 

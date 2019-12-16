@@ -10,7 +10,7 @@ func TestAddTwoNumbers(t *testing.T) {
 	l2 := &ListNode{5, &ListNode{6, &ListNode{4, nil}}}
 	printListNode(l1)
 	printListNode(l2)
-	result := AddTwoNumbers(l1, l2)
+	result := addTwoNumbers(l1, l2)
 	printListNode(result)
 }
 

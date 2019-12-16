@@ -6,7 +6,7 @@ import (
 	"math"
 )
 
-func Reverse(x int) int {
+func reverse(x int) int {
 	f := false
 	var y int
 	if x < 0 {

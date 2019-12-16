@@ -2,7 +2,7 @@
 
 package longest_common_prefix
 
-func LongestCommonPrefix(strs []string) string {
+func longestCommonPrefix(strs []string) string {
 	i := 0
 	over := false
 	ss := ""

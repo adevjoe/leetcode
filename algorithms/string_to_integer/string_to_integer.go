@@ -9,7 +9,7 @@ import (
 // 整理为四个规则 1.检测空白 2.排除字母 3.记录符号 4.避免溢出
 // 优化改进，执行效率提升1倍
 // 之前连字母也会检验，现在不是空白符、数字和符号的直接 break，起到提前退出程序的效果，减少程序运行次数
-func Atoi(str string) int {
+func atoi(str string) int {
 	num := 0
 	sign := ""
 	start := false // 一旦解析到数字或符号则为 true

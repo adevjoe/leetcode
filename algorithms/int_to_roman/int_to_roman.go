@@ -15,7 +15,7 @@ var RomanList = []struct {
 	{1000, "M"},
 }
 
-func IntToRoman(num int) string {
+func intToRoman(num int) string {
 	s := ""
 	i := len(RomanList) - 1
 	for i >= 0 && num > 0 {

@@ -10,12 +10,12 @@ var str = "   -422w"
 func TestAtoi(t *testing.T) {
 
 	fmt.Println(myAtoi(str))
-	fmt.Println(Atoi(str))
+	fmt.Println(atoi(str))
 }
 
 func BenchmarkAtoi(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		Atoi(str)
+		atoi(str)
 	}
 }
 
