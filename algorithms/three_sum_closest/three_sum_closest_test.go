@@ -5,26 +5,34 @@ import (
 	"testing"
 )
 
-var testCase = []testutil.TestCase{
-	{
-		Args: []interface{}{
-			[]int{-1, 2, 1, -4},
-			1,
-		}, Want: 2,
-	},
-	{
-		Args: []interface{}{
-			[]int{50, 2, 1, -4},
-			5,
-		}, Want: -1,
-	},
+type ThreeSumClosestTestCase struct {
+	Args struct {
+		Nums   []int
+		target int
+	}
+	Want int
+	Get  int
 }
 
+type s []ThreeSumClosestTestCase
+
+func (p s) Len() int               { return len(p) }
+func (p s) Fn(i int)               { p[i].Get = threeSumClosest(p[i].Args.Nums, p[i].Args.target) }
+func (p s) Args(i int) interface{} { return p[i].Args }
+func (p s) Want(i int) interface{} { return p[i].Want }
+func (p s) Get(i int) interface{}  { return p[i].Get }
+func (p s) Assert(i int) bool      { return p[i].Get == p[i].Want }
+
 func TestThreeSumClosest(t *testing.T) {
-	for _, c := range testCase {
-		if get := threeSumClosest(c.Args.([]interface{})[0].([]int), c.Args.([]interface{})[1].(int)); get != c.Want {
-			t.Errorf("ThreeSumClosest error with nums: %v, target: %d, get: %v, want: %v",
-				c.Args.([]interface{})[0].([]int), c.Args.([]interface{})[1].(int), get, c.Want)
-		}
+	data := s{
+		{Args: struct {
+			Nums   []int
+			target int
+		}{Nums: []int{-1, 2, 1, -4}, target: 1}, Want: 2},
+		{Args: struct {
+			Nums   []int
+			target int
+		}{Nums: []int{50, 2, 1, -4}, target: 5}, Want: -1},
 	}
+	testutil.Testing(t, data)
 }
