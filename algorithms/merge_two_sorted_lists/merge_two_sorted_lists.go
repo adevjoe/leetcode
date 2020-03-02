@@ -16,23 +16,41 @@ type ListNode struct {
 // 2->2->4->5, 1->3->4->6
 // 1->2->2->3->4->4->5->6
 func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
-	for l1 != nil {
-		for l2 != nil {
-			if l1.Val >= l2.Val {
-				temp := &ListNode{
-					Val:  l1.Val,
-					Next: l1.Next,
+	var newList *ListNode
+	for l1 != nil || l2 != nil {
+		tail := &ListNode{}
+		if l1 != nil {
+			if l2 != nil {
+				if l1.Val <= l2.Val {
+					tail.Val = l1.Val
+					l1 = l1.Next
+				} else {
+					tail.Val = l2.Val
+					l2 = l2.Next
 				}
-				l1.Val = l2.Val
-				l1.Next = temp
-				l2 = l2.Next
-				break
+			} else {
+				tail.Val = l1.Val
+				l1 = l1.Next
 			}
-			l1 = l1.Next
-			l2 = l2.Next
+		} else {
+			if l2 != nil {
+				tail.Val = l2.Val
+				l2 = l2.Next
+			}
+		}
+		if newList == nil {
+			newList = tail
+		} else {
+			tempList := newList
+			last := tempList
+			for tempList != nil {
+				last = tempList
+				tempList = tempList.Next
+			}
+			last.Next = tail
 		}
 	}
-	return l1
+	return newList
 }
 
 func printListNode(head *ListNode) {
