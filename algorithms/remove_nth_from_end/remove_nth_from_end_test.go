@@ -1,22 +1,25 @@
 package remove_nth_from_end
 
-import "testing"
+import (
+	"github.com/adevjoe/leetcode/common"
+	"testing"
+)
 
 func TestA(t *testing.T) {
-	link := &ListNode{Val: 1, Next: &ListNode{
+	link := &common.ListNode{Val: 1, Next: &common.ListNode{
 		Val: 2,
-		Next: &ListNode{
+		Next: &common.ListNode{
 			Val: 3,
-			Next: &ListNode{
+			Next: &common.ListNode{
 				Val: 4,
-				Next: &ListNode{
+				Next: &common.ListNode{
 					Val:  5,
 					Next: nil,
 				},
 			},
 		},
 	}}
-	printListNode(link)
+	common.PrintListNode(link)
 	link = removeNthFromEnd(link, 5)
-	printListNode(link)
+	common.PrintListNode(link)
 }

@@ -2,26 +2,19 @@
 
 package merge_two_sorted_lists
 
-import "fmt"
-
-/**
- * Definition for singly-linked list.
- */
-
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+import (
+	"github.com/adevjoe/leetcode/common"
+)
 
 // 2->2->4->5, 1->3->4->6
 // 1->2->2->3->4->4->5->6
-func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
-	var newList *ListNode
+func mergeTwoLists(l1 *common.ListNode, l2 *common.ListNode) *common.ListNode {
+	var newList *common.ListNode
 	for l1 != nil || l2 != nil {
-		tail := &ListNode{}
+		tail := &common.ListNode{}
 		if l1 != nil {
 			if l2 != nil {
-				if l1.Val <= l2.Val {
+				if l1.Val.(int) <= l2.Val.(int) {
 					tail.Val = l1.Val
 					l1 = l1.Next
 				} else {
@@ -51,19 +44,4 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 		}
 	}
 	return newList
-}
-
-func printListNode(head *ListNode) {
-	var s string
-	s += fmt.Sprint(head.Val)
-	if head.Next == nil {
-		fmt.Println(s)
-		return
-	}
-	head = head.Next
-	for head != nil {
-		s += fmt.Sprintf("->%d", head.Val)
-		head = head.Next
-	}
-	fmt.Println(s)
 }

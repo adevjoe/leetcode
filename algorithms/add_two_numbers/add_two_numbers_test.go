@@ -1,25 +1,15 @@
 package add_two_numbers
 
 import (
-	"fmt"
+	"github.com/adevjoe/leetcode/common"
 	"testing"
 )
 
 func TestAddTwoNumbers(t *testing.T) {
-	l1 := &ListNode{2, &ListNode{4, &ListNode{3, nil}}}
-	l2 := &ListNode{5, &ListNode{6, &ListNode{4, nil}}}
-	printListNode(l1)
-	printListNode(l2)
+	l1 := &common.ListNode{Val: 2, Next: &common.ListNode{Val: 4, Next: &common.ListNode{Val: 3}}}
+	l2 := &common.ListNode{Val: 5, Next: &common.ListNode{Val: 6, Next: &common.ListNode{Val: 4}}}
+	common.PrintListNode(l1)
+	common.PrintListNode(l2)
 	result := addTwoNumbers(l1, l2)
-	printListNode(result)
-}
-
-func printListNode(node *ListNode) {
-	fmt.Print(node.Val)
-	if node.Next != nil {
-		fmt.Print(" -> ")
-		printListNode(node.Next)
-	} else {
-		fmt.Print("\n")
-	}
+	common.PrintListNode(result)
 }

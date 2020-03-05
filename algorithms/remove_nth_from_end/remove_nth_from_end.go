@@ -2,7 +2,9 @@
 
 package remove_nth_from_end
 
-import "fmt"
+import (
+	"github.com/adevjoe/leetcode/common"
+)
 
 /**
 * Definition for singly-linked list.
@@ -11,10 +13,10 @@ import "fmt"
 *     Next *ListNode
 * }
  */
-func removeNthFromEnd(head *ListNode, n int) *ListNode {
+func removeNthFromEnd(head *common.ListNode, n int) *common.ListNode {
 	// firstly, get list length
 	l := 0
-	var newHead *ListNode
+	var newHead *common.ListNode
 	newHead = head
 	for newHead != nil {
 		newHead = newHead.Next
@@ -39,24 +41,4 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
 		newHead = newHead.Next
 	}
 	return head
-}
-
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
-func printListNode(head *ListNode) {
-	var s string
-	s += fmt.Sprint(head.Val)
-	if head.Next == nil {
-		fmt.Println(s)
-		return
-	}
-	head = head.Next
-	for head != nil {
-		s += fmt.Sprintf("->%d", head.Val)
-		head = head.Next
-	}
-	fmt.Println(s)
 }

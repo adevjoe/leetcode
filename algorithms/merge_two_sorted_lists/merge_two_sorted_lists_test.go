@@ -1,30 +1,33 @@
 package merge_two_sorted_lists
 
-import "testing"
+import (
+	"github.com/adevjoe/leetcode/common"
+	"testing"
+)
 
 func TestA(t *testing.T) {
-	l1 := &ListNode{Val: 2, Next: &ListNode{
+	l1 := &common.ListNode{Val: 2, Next: &common.ListNode{
 		Val: 2,
-		Next: &ListNode{
+		Next: &common.ListNode{
 			Val: 4,
-			Next: &ListNode{
+			Next: &common.ListNode{
 				Val:  5,
 				Next: nil,
 			},
 		},
 	}}
-	l2 := &ListNode{Val: 1, Next: &ListNode{
+	l2 := &common.ListNode{Val: 1, Next: &common.ListNode{
 		Val: 3,
-		Next: &ListNode{
+		Next: &common.ListNode{
 			Val: 4,
-			Next: &ListNode{
+			Next: &common.ListNode{
 				Val:  6,
 				Next: nil,
 			},
 		},
 	}}
-	printListNode(l1)
-	printListNode(l2)
+	common.PrintListNode(l1)
+	common.PrintListNode(l2)
 	l3 := mergeTwoLists(l1, l2)
-	printListNode(l3)
+	common.PrintListNode(l3)
 }
