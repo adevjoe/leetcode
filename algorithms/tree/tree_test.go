@@ -38,6 +38,7 @@ func TestLevelOrder(t *testing.T) {
 	fmt.Println(preorderTraversal(root))
 	fmt.Println(inorderTraversal(root))
 	fmt.Println(postorderTraversal(root))
-	fmt.Println(levelOrder(root))
+	fmt.Println(levelOrderWithSlice(root))
 	fmt.Println(inorderTraversal(nil))
+	fmt.Println(levelOrderWithQueue(root))
 }

@@ -1,5 +1,9 @@
 package tree
 
+import (
+	"github.com/adevjoe/leetcode/common"
+)
+
 func preorderTraversal(root *TreeNode) []int {
 	var result []int
 	if root == nil {
@@ -45,7 +49,7 @@ func postorderTraversal(root *TreeNode) []int {
 	return result
 }
 
-func levelOrder(root *TreeNode) [][]int {
+func levelOrderWithSlice(root *TreeNode) [][]int {
 	var queue []*TreeNode
 	var result [][]int
 	queue = append(queue, root)
@@ -65,6 +69,33 @@ func levelOrder(root *TreeNode) [][]int {
 			}
 		}
 		queue = queue[l:]
+		if len(temp) > 0 {
+			result = append(result, temp)
+		}
+	}
+	return result
+}
+
+func levelOrderWithQueue(root *TreeNode) [][]int {
+	s := common.NewQueue()
+	s.Put(root)
+	var result [][]int
+	for s.Len() > 0 {
+		var temp []int
+		l := s.Len()
+		for i := 1; i <= l; i++ {
+			t, _ := s.Pop().(*TreeNode)
+			if t == nil {
+				continue
+			}
+			if t.Left != nil {
+				s.Put(t.Left)
+			}
+			if t.Right != nil {
+				s.Put(t.Right)
+			}
+			temp = append(temp, t.Val)
+		}
 		if len(temp) > 0 {
 			result = append(result, temp)
 		}
