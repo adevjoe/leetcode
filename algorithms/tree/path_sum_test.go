@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestPathSum(t *testing.T) {
+func TestHasPathSum(t *testing.T) {
 	cases := []struct {
 		arg1 *TreeNode
 		arg2 int
@@ -43,7 +43,7 @@ func TestPathSum(t *testing.T) {
 	}
 
 	for i, testCase := range cases {
-		t.Run(fmt.Sprintf("TestPathSum-%d", i), func(t *testing.T) {
+		t.Run(fmt.Sprintf("TestHasPathSum-%d", i), func(t *testing.T) {
 			if get := hasPathSum(testCase.arg1, testCase.arg2); testCase.want != get {
 				t.Errorf("arg1: %v, arg2: %v, want %v, get %v", inorderTraversal(testCase.arg1),
 					testCase.arg2, testCase.want, get)
