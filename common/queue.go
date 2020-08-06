@@ -29,6 +29,13 @@ func (q *Queue) Pop() interface{} {
 	return v
 }
 
+func (q *Queue) Touch() interface{} {
+	if q.Empty() {
+		return nil
+	}
+	return q.values[0]
+}
+
 func (q *Queue) GetIndex(i int) interface{} {
 	if q.Len() <= i {
 		return nil
