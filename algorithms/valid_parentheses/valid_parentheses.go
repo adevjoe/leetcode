@@ -14,7 +14,8 @@ const (
 )
 
 func isValid(s string) bool {
-	stack := common.NewStack()
+	var stack common.Stack
+	stack = common.NewSliceStack()
 	for _, v := range s {
 		if v == '{' {
 			stack.Push('}')

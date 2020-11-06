@@ -45,7 +45,8 @@ func generateParenthesis(n int) []string {
 }
 
 func isValid(s string) bool {
-	stack := common.NewStack()
+	var stack common.Stack
+	stack = common.NewNodeStack()
 	for _, v := range s {
 		if v == '(' {
 			stack.Push(')')
