@@ -2,12 +2,6 @@
 
 package tree
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
-
 /**
 n = 1
 1

@@ -1,4 +1,4 @@
-package tree
+package house_robber
 
 import (
 	"github.com/adevjoe/leetcode/common"

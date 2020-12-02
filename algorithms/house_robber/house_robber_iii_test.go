@@ -1,8 +1,10 @@
 // +build !ci
 
-package tree
+package house_robber
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestRob(t *testing.T) {
 	cases := []struct {
@@ -24,7 +26,13 @@ func TestRob(t *testing.T) {
 
 	for _, s := range cases {
 		t.Run(s.desc, func(t *testing.T) {
-			if got := rob(s.root); got != s.want {
+			if got := robThree(s.root); got != s.want {
+				t.Errorf("root: %v, want: %d, got: %d", inorderTraversal(s.root), s.want, got)
+			}
+		})
+
+		t.Run(s.desc, func(t *testing.T) {
+			if got := robThreeTwo(s.root); got != s.want {
 				t.Errorf("root: %v, want: %d, got: %d", inorderTraversal(s.root), s.want, got)
 			}
 		})
