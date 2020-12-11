@@ -1,5 +1,3 @@
-// +build !ci
-
 package house_robber
 
 import (
