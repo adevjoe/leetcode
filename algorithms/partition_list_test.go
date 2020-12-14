@@ -1,5 +1,3 @@
-// +build !ci
-
 package algorithms
 
 import (
