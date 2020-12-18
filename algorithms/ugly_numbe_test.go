@@ -20,7 +20,7 @@ func TestIsUglyNumber(t *testing.T) {
 		{desc: "7", num: 7, want: false},
 		{desc: "10", num: 10, want: true},
 		{desc: "11", num: 11, want: false},
-		{desc: "999", num: 999, want: true},
+		{desc: "999", num: 999, want: false},
 		{desc: "22", num: 22, want: false},
 	}
 
