@@ -53,3 +53,56 @@ func rotateList(head *common.ListNode) (*common.ListNode, int) {
 	}
 	return nil, i
 }
+
+// alloc to many mem
+func rotateRightIterator(head *common.ListNode, k int) *common.ListNode {
+	if k == 0 || head == nil {
+		return head
+	}
+	tmp := head
+	for tmp != nil {
+		if tmp.Next == nil {
+			return head
+		}
+		if tmp.Next.Next == nil {
+			tmp.Next.Next = head
+			head = tmp.Next
+			tmp.Next = nil
+			break
+		}
+		tmp = tmp.Next
+	}
+	return rotateRightIterator(head, k-1)
+}
+
+func rotateRightCircle(head *common.ListNode, k int) *common.ListNode {
+	tail := head
+	l := 0
+	for tail != nil {
+		l++
+		if tail.Next == nil {
+			tail.Next = head
+			break
+		}
+		tail = tail.Next
+	}
+
+	if k >= l {
+		k = k % l
+	}
+
+	if k == 0 {
+		tail.Next = nil
+		return head
+	}
+	newHead := head
+	for i := 1; i <= l-k; i++ {
+		if i == l-k {
+			t := newHead.Next
+			newHead.Next = nil
+			return t
+		}
+		newHead = newHead.Next
+	}
+	return nil
+}
