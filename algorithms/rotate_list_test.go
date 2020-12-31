@@ -116,3 +116,46 @@ func TestRotateCircle(t *testing.T) {
 		})
 	}
 }
+
+func BenchmarkRotateRightCircle(b *testing.B) {
+	head := &common.ListNode{Val: 1, Next: &common.ListNode{Val: 2, Next: &common.ListNode{Val: 3, Next: &common.ListNode{Val: 4, Next: &common.ListNode{Val: 5}}}}}
+
+	for i := 0; i < b.N; i++ {
+		rotateRightCircle(head, 2)
+	}
+}
+func BenchmarkRotateRight(b *testing.B) {
+	head := &common.ListNode{Val: 1, Next: &common.ListNode{Val: 2, Next: &common.ListNode{Val: 3, Next: &common.ListNode{Val: 4, Next: &common.ListNode{Val: 5}}}}}
+
+	for i := 0; i < b.N; i++ {
+		rotateRight(head, 2)
+	}
+}
+func BenchmarkRotateRightIterator(b *testing.B) {
+	head := &common.ListNode{Val: 1, Next: &common.ListNode{Val: 2, Next: &common.ListNode{Val: 3, Next: &common.ListNode{Val: 4, Next: &common.ListNode{Val: 5}}}}}
+
+	for i := 0; i < b.N; i++ {
+		rotateRightIterator(head, 2)
+	}
+}
+func BenchmarkRotateRightCircle2000(b *testing.B) {
+	head := &common.ListNode{Val: 1, Next: &common.ListNode{Val: 2, Next: &common.ListNode{Val: 3, Next: &common.ListNode{Val: 4, Next: &common.ListNode{Val: 5}}}}}
+
+	for i := 0; i < b.N; i++ {
+		rotateRightCircle(head, 2000)
+	}
+}
+func BenchmarkRotateRight2000(b *testing.B) {
+	head := &common.ListNode{Val: 1, Next: &common.ListNode{Val: 2, Next: &common.ListNode{Val: 3, Next: &common.ListNode{Val: 4, Next: &common.ListNode{Val: 5}}}}}
+
+	for i := 0; i < b.N; i++ {
+		rotateRight(head, 2000)
+	}
+}
+func BenchmarkRotateRightIterator2000(b *testing.B) {
+	head := &common.ListNode{Val: 1, Next: &common.ListNode{Val: 2, Next: &common.ListNode{Val: 3, Next: &common.ListNode{Val: 4, Next: &common.ListNode{Val: 5}}}}}
+
+	for i := 0; i < b.N; i++ {
+		rotateRightIterator(head, 2000)
+	}
+}
