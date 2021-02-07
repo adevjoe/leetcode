@@ -1,5 +1,3 @@
-// +build !ci
-
 package algorithms
 
 import "testing"
@@ -18,6 +16,7 @@ func TestNthUglyNumber(t *testing.T) {
 		{desc: "7", num: 7, want: 8},
 		{desc: "10", num: 10, want: 12},
 		{desc: "1352", num: 1352, want: 402653184},
+		{desc: "2123366400", num: 1690, want: 2123366400},
 	}
 
 	for _, s := range cases {
