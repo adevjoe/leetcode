@@ -2,6 +2,10 @@
 
 package merge_k_sorted_lists
 
+import (
+	"sort"
+)
+
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -9,22 +13,28 @@ package merge_k_sorted_lists
  *     Next *ListNode
  * }
  */
-// 先连接所有链表，然后排序
 func mergeKLists(lists []*ListNode) *ListNode {
-	var result *ListNode
-	var tail *ListNode
-	for _, list := range lists {
-		if result == nil {
-			result = list
-		} else {
-			tail.Next = list
-		}
-		for list != nil {
-			tail = list
-			list = list.Next
+	if len(lists) == 0 {
+		return nil
+	}
+	n := []int{}
+	for _, l := range lists {
+		for l != nil {
+			n = append(n, l.Val)
+			l = l.Next
 		}
 	}
-	return result
+	sort.Sort(sort.Reverse(sort.IntSlice(n)))
+
+	var head *ListNode
+	for _, v := range n {
+		tmp := head
+		head = &ListNode{
+			Val:  v,
+			Next: tmp,
+		}
+	}
+	return head
 }
 
 type ListNode struct {
