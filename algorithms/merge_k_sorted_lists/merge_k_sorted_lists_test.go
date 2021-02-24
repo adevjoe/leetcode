@@ -2,6 +2,7 @@ package merge_k_sorted_lists
 
 import (
 	"fmt"
+	"reflect"
 	"testing"
 )
 
@@ -55,7 +56,7 @@ func TestMergeKLists(t *testing.T) {
 
 	for _, s := range cases {
 		t.Run(s.desc, func(t *testing.T) {
-			if got := mergeKLists(s.lists); !sameListNode(s.want, got) {
+			if got := mergeKLists(s.lists); !reflect.DeepEqual(s.want, got) {
 				t.Error("error")
 				fmt.Print("want: ")
 				printListNode(s.want)
@@ -74,21 +75,4 @@ func printListNode(head *ListNode) {
 	} else {
 		fmt.Print("\n")
 	}
-}
-
-func sameListNode(l1 *ListNode, l2 *ListNode) bool {
-	if l1 == nil && l1 != l2 {
-		return false
-	}
-	for l1 != nil {
-		if l2 == nil {
-			return false
-		}
-		if l1.Val != l2.Val {
-			return false
-		}
-		l1 = l1.Next
-		l2 = l2.Next
-	}
-	return true
 }
