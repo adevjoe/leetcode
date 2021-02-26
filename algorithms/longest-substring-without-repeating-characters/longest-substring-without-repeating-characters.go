@@ -1,10 +1,6 @@
-// https://leetcode.com/problems/longest-substring-without-repeating-characters/
+// https://leetcode.com/problems/longest-substring-without-repeating-characters
 
-package longest_substring_without_repeating_charaters
-
-import (
-	_ "net/http/pprof"
-)
+package leetcode
 
 func lengthOfLongestSubstring(s string) int {
 	if len(s) == 0 {

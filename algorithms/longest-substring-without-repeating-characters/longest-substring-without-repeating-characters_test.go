@@ -1,4 +1,4 @@
-package longest_substring_without_repeating_charaters
+package leetcode
 
 import (
 	"fmt"

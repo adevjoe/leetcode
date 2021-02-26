@@ -24,3 +24,15 @@ check-dir:
 
 clean:
 	@rm -rf $(OUTPUT)
+
+dep:
+	@python3 -m pip install -r Requirements.txt
+
+fetch-all:
+	@./leetcode.py -a
+
+new:
+	@./leetcode.py -n --id $(id)
+
+finish:
+	@./leetcode.py -f --id $(id)
