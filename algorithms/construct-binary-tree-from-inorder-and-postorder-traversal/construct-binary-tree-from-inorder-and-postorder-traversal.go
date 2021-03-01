@@ -1,6 +1,13 @@
-// https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+// https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal
 
-package tree
+package leetcode
+
+// Definition for a binary tree node.
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
 
 func buildTreePostOrder(inorder []int, postorder []int) *TreeNode {
 	if len(postorder) == 0 {
@@ -66,4 +73,13 @@ func dfs(inp, pop, l int, in []int, po []int) *TreeNode {
 	root.Right = dfs(root_in_in+1, pop-1, right_len, in, po)
 
 	return &root
+}
+
+func index(list []int, value int) int {
+	for i, v := range list {
+		if v == value {
+			return i
+		}
+	}
+	return -1
 }

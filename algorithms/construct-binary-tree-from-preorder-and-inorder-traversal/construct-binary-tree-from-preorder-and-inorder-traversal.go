@@ -1,6 +1,13 @@
-// https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+// https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal
 
-package tree
+package leetcode
+
+// Definition for a binary tree node.
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
 
 func buildTree(preorder []int, inorder []int) *TreeNode {
 	return buildTreeWithPoint(&preorder, inorder)

@@ -1,8 +1,8 @@
-package tree
+package leetcode
 
 import "testing"
 
-func TestMaxDepth(t *testing.T) {
+func TestMaximumDepthofBinaryTree(t *testing.T) {
 	t1 := &TreeNode{Val: 3, Left: &TreeNode{Val: 9},
 		Right: &TreeNode{Val: 20, Left: &TreeNode{Val: 15}, Right: &TreeNode{Val: 7}}}
 	if get := maxDepth(t1); get != 3 {

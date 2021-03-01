@@ -81,7 +81,7 @@ def new_solution(id):
             break
 
     file_content = "// https://leetcode.com/problems/{0}\n\npackage leetcode\n\n{1}\n".format(q['stat']['question__title_slug'], code)
-    test_content = "package leetcode\n\nfunc Test{0}(t *testing.T) {1}".format(q['question']['title'].replace(" ", ""), "{\n\n}\n")
+    test_content = "package leetcode\n\nimport \"testing\"\n\nfunc Test{0}(t *testing.T) {1}".format(q['question']['title'].replace(" ", ""), "{\n\n}\n")
     filename = "algorithms/{0}/{0}.go".format(q['stat']['question__title_slug'])
     os.makedirs(os.path.dirname(filename), exist_ok=True)
     if not os.path.exists(filename):
