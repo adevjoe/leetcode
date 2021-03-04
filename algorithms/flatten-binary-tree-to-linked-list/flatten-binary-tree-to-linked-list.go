@@ -1,6 +1,13 @@
-// https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+// https://leetcode.com/problems/flatten-binary-tree-to-linked-list
 
-package tree
+package leetcode
+
+// Definition for a binary tree node.
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
 
 func flatten(root *TreeNode) {
 	if root == nil {

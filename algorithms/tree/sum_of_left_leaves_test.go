@@ -41,7 +41,7 @@ func TestSumOfLeftLeaves(t *testing.T) {
 	for _, s := range cases {
 		t.Run(s.desc, func(t *testing.T) {
 			if got := sumOfLeftLeaves(s.root); got != s.want {
-				t.Errorf("root: %v, want: %d, got: %d", preorderTraversal(s.root), s.want, got)
+				t.Error()
 			}
 		})
 	}

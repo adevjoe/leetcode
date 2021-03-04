@@ -1,11 +1,11 @@
-package tree
+package leetcode
 
 import (
 	"fmt"
 	"testing"
 )
 
-func TestConnect(t *testing.T) {
+func TestPopulatingNextRightPointersinEachNode(t *testing.T) {
 	cases := []struct {
 		arg1 *Node
 		want *Node

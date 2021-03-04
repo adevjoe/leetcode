@@ -1,6 +1,13 @@
-// https://leetcode.com/problems/sum-root-to-leaf-numbers/
+// https://leetcode.com/problems/sum-root-to-leaf-numbers
 
-package tree
+package leetcode
+
+// Definition for a binary tree node.
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
 
 func sumNumbers(root *TreeNode) int {
 	return sumNumbersWithCur(root, 0, 0)

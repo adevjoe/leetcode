@@ -1,4 +1,4 @@
-package algorithms
+package leetcode
 
 import (
 	"fmt"
@@ -8,14 +8,14 @@ import (
 func TestLRUCache(t *testing.T) {
 	l := Constructor(2)
 	l.Put(1, 1)
-	printDoubleList(l.head, l.tail)
+	//printDoubleList(l.head, l.tail)
 	l.Put(2, 2)
-	printDoubleList(l.head, l.tail)
+	//printDoubleList(l.head, l.tail)
 	if got := l.Get(1); got != 1 {
 		t.Errorf("set 1 error, got: %d", got)
 	}
 	l.Put(3, 3)
-	printDoubleList(l.head, l.tail)
+	//printDoubleList(l.head, l.tail)
 	if got := l.Get(2); got != -1 {
 		t.Errorf("evict 1 error, got: %d", got)
 	}

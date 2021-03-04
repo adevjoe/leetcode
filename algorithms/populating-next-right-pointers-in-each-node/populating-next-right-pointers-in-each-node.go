@@ -1,11 +1,10 @@
-// https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
+// https://leetcode.com/problems/populating-next-right-pointers-in-each-node
 
-package tree
+package leetcode
 
-import (
-	"github.com/adevjoe/leetcode/common"
-)
+import "github.com/adevjoe/leetcode/common"
 
+// Definition for a Node.
 type Node struct {
 	Val   int
 	Left  *Node

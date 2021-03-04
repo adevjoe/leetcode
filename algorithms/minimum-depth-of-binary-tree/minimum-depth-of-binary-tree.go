@@ -1,8 +1,15 @@
-// https://leetcode.com/problems/minimum-depth-of-binary-tree/
+// https://leetcode.com/problems/minimum-depth-of-binary-tree
 
-package tree
+package leetcode
 
 import "math"
+
+// Definition for a binary tree node.
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
 
 func minDepth(root *TreeNode) int {
 	if root == nil {

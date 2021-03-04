@@ -1,10 +1,17 @@
-// https://leetcode.com/problems/binary-tree-maximum-path-sum/
+// https://leetcode.com/problems/binary-tree-maximum-path-sum
 
-package tree
+package leetcode
 
 import "math"
 
-/**
+// Definition for a binary tree node.
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
+
+/*
 Input: [-10,9,20,null,null,15,7]
 
    -10

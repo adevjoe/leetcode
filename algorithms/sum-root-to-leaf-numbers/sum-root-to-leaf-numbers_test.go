@@ -1,11 +1,11 @@
-package tree
+package leetcode
 
 import (
 	"fmt"
 	"testing"
 )
 
-func TestSumNumbers(t *testing.T) {
+func TestSumRoottoLeafNumbers(t *testing.T) {
 	cases := []struct {
 		arg1 *TreeNode
 		want int
@@ -17,7 +17,7 @@ func TestSumNumbers(t *testing.T) {
 	for i, c := range cases {
 		t.Run(fmt.Sprintf("TestSumNumbers-%d", i), func(t *testing.T) {
 			if get := sumNumbers(c.arg1); get != c.want {
-				t.Errorf("arg1: %v, want: %v, get: %v", preorderTraversal(c.arg1), c.want, get)
+				t.Error()
 			}
 		})
 	}

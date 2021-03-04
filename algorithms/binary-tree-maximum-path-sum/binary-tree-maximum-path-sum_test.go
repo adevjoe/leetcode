@@ -1,11 +1,11 @@
-package tree
+package leetcode
 
 import (
 	"fmt"
 	"testing"
 )
 
-func TestMaxPathSum(t *testing.T) {
+func TestBinaryTreeMaximumPathSum(t *testing.T) {
 	cases := []struct {
 		arg  *TreeNode
 		want int
@@ -20,7 +20,7 @@ func TestMaxPathSum(t *testing.T) {
 	for i, c := range cases {
 		t.Run(fmt.Sprintf("TestMaxPathSum-%d", i), func(t *testing.T) {
 			if get := maxPathSum(c.arg); get != c.want {
-				t.Errorf("arg: %v, get: %v, want: %v", preorderTraversal(c.arg), get, c.want)
+				t.Error()
 			}
 		})
 	}

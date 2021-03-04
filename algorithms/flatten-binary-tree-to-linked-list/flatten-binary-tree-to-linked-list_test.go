@@ -1,11 +1,12 @@
-package tree
+package leetcode
 
 import (
 	"fmt"
+	"reflect"
 	"testing"
 )
 
-func TestFlatten(t *testing.T) {
+func TestFlattenBinaryTreetoLinkedList(t *testing.T) {
 	cases := []struct {
 		args *TreeNode
 		want *TreeNode
@@ -22,8 +23,8 @@ func TestFlatten(t *testing.T) {
 
 	for i, testCase := range cases {
 		t.Run(fmt.Sprintf("TestFlatten-%d", i), func(t *testing.T) {
-			if flatten(testCase.args); !isSameTree(testCase.args, testCase.want) {
-				t.Errorf("want %v, get %v", inorderTraversal(testCase.want), inorderTraversal(testCase.args))
+			if flatten(testCase.args); !reflect.DeepEqual(testCase.want, testCase.args) {
+				t.Error()
 			}
 		})
 	}

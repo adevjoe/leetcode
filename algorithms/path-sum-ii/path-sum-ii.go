@@ -1,16 +1,23 @@
-// https://leetcode.com/problems/path-sum/
+// https://leetcode.com/problems/path-sum-ii
 
-package tree
+package leetcode
 
-func pathSum(root *TreeNode, sum int) [][]int {
+// Definition for a binary tree node.
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
+
+func pathSum(root *TreeNode, targetSum int) [][]int {
 	var r [][]int
 	if root == nil {
 		return r
 	}
-	if root.Val == sum && root.Left == nil && root.Right == nil {
+	if root.Val == targetSum && root.Left == nil && root.Right == nil {
 		return [][]int{{root.Val}}
 	}
-	left := pathSum(root.Left, sum-root.Val)
+	left := pathSum(root.Left, targetSum-root.Val)
 	for i := range left {
 		temp := left[i]
 		left[i] = make([]int, 0)
@@ -18,7 +25,7 @@ func pathSum(root *TreeNode, sum int) [][]int {
 		left[i] = append(left[i], temp...)
 		r = append(r, left[i])
 	}
-	right := pathSum(root.Right, sum-root.Val)
+	right := pathSum(root.Right, targetSum-root.Val)
 	for i := range right {
 		temp := right[i]
 		right[i] = make([]int, 0)

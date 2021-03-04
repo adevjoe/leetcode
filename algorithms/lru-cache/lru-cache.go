@@ -1,6 +1,6 @@
-// https://leetcode.com/problems/lru-cache/
+// https://leetcode.com/problems/lru-cache
 
-package algorithms
+package leetcode
 
 type LRUCache struct {
 	values   map[int]*lruDoubleListNode

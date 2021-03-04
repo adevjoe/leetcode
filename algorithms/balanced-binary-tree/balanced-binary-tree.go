@@ -1,6 +1,13 @@
-// https://leetcode.com/problems/balanced-binary-tree/
+// https://leetcode.com/problems/balanced-binary-tree
 
-package tree
+package leetcode
+
+// Definition for a binary tree node.
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
 
 func isBalanced(root *TreeNode) bool {
 	if root == nil {

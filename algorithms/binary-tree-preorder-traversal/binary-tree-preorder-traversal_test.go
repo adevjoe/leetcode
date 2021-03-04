@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestBinaryTreeInorderTraversal(t *testing.T) {
+func TestBinaryTreePreorderTraversal(t *testing.T) {
 	cases := []struct {
 		desc string
 		root *TreeNode
@@ -42,7 +42,7 @@ func TestBinaryTreeInorderTraversal(t *testing.T) {
 					},
 				},
 			},
-			want: []int{4, 2, 5, 1, 6, 3, 7},
+			want: []int{1, 2, 4, 5, 3, 6, 7},
 		},
 		{
 			desc: "#2",
@@ -52,7 +52,7 @@ func TestBinaryTreeInorderTraversal(t *testing.T) {
 
 	for _, s := range cases {
 		t.Run(s.desc, func(t *testing.T) {
-			if got := inorderTraversal(s.root); !reflect.DeepEqual(s.want, got) {
+			if got := preorderTraversal(s.root); !reflect.DeepEqual(s.want, got) {
 				t.Error()
 			}
 		})

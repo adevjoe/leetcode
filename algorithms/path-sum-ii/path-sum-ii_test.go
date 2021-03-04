@@ -1,4 +1,4 @@
-package tree
+package leetcode
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func TestPathSum(t *testing.T) {
+func TestPathSumII(t *testing.T) {
 	cases := []struct {
 		arg1 *TreeNode
 		arg2 int
@@ -30,8 +30,7 @@ func TestPathSum(t *testing.T) {
 	for i, testCase := range cases {
 		t.Run(fmt.Sprintf("TestPathSum-%d", i), func(t *testing.T) {
 			if get := pathSum(testCase.arg1, testCase.arg2); !reflect.DeepEqual(testCase.want, get) {
-				t.Errorf("arg1: %v, arg2: %v, want %v, get %v", inorderTraversal(testCase.arg1),
-					testCase.arg2, testCase.want, get)
+				t.Error()
 			}
 		})
 	}
