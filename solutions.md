@@ -28,7 +28,7 @@
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | Easy | [Go](algorithms/remove-duplicates-from-sorted-array/remove-duplicates-from-sorted-array.go)
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element) | Easy | [Go](algorithms/remove-element/remove-element.go)
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr) | Easy | [Go](algorithms/implement-strstr/implement-strstr.go)
-| 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers) | Medium | 
+| 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers) | Medium | [Go](algorithms/divide-two-integers/divide-two-integers.go)
 | 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words) | Hard | 
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation) | Medium | 
 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | Hard | 
