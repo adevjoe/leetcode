@@ -35,7 +35,7 @@
 | 33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | Medium | [Go](algorithms/search-in-rotated-sorted-array/search-in-rotated-sorted-array.go)
 | 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | Medium | [Go](algorithms/find-first-and-last-position-of-element-in-sorted-array/find-first-and-last-position-of-element-in-sorted-array.go)
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position) | Easy | 
-| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | Medium | 
+| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | Medium | [Go](algorithms/valid-sudoku/valid-sudoku.go)
 | 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | Hard | 
 | 38 | [Count and Say](https://leetcode.com/problems/count-and-say) | Medium | 
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum) | Medium | 
