@@ -37,7 +37,7 @@
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position) | Easy | 
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | Medium | [Go](algorithms/valid-sudoku/valid-sudoku.go)
 | 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | Hard | 
-| 38 | [Count and Say](https://leetcode.com/problems/count-and-say) | Medium | 
+| 38 | [Count and Say](https://leetcode.com/problems/count-and-say) | Medium | [Go](algorithms/count-and-say/count-and-say.go)
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum) | Medium | 
 | 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) | Medium | 
 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive) | Hard | 
