@@ -41,7 +41,7 @@
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum) | Medium | 
 | 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii) | Medium | 
 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive) | Hard | [Go](algorithms/first-missing-positive/first-missing-positive.go)
-| 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) | Hard | 
+| 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water) | Hard | [Go](algorithms/trapping-rain-water/trapping-rain-water.go)
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings) | Medium | 
 | 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | Hard | 
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii) | Hard | 
