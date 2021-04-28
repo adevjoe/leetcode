@@ -45,7 +45,7 @@
 | 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings) | Medium | 
 | 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching) | Hard | [Go](algorithms/wildcard-matching/wildcard-matching.go)
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii) | Hard | 
-| 46 | [Permutations](https://leetcode.com/problems/permutations) | Medium | 
+| 46 | [Permutations](https://leetcode.com/problems/permutations) | Medium | [Go](algorithms/permutations/permutations.go)
 | 47 | [Permutations II](https://leetcode.com/problems/permutations-ii) | Medium | 
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image) | Medium | 
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | Medium | 
