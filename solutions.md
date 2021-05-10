@@ -53,7 +53,7 @@
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens) | Hard | 
 | 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii) | Hard | 
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | Easy | [Go](algorithms/maximum-subarray/maximum-subarray.go)
-| 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | Medium | 
+| 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | Medium | [Go](algorithms/spiral-matrix/spiral-matrix.go)
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game) | Medium | 
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | Medium | 
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval) | Medium | 
