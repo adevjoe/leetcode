@@ -55,7 +55,7 @@
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | Easy | [Go](algorithms/maximum-subarray/maximum-subarray.go)
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix) | Medium | [Go](algorithms/spiral-matrix/spiral-matrix.go)
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game) | Medium | [Go](algorithms/jump-game/jump-game.go)
-| 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | Medium | 
+| 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | Medium | [Go](algorithms/merge-intervals/merge-intervals.go)
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval) | Medium | 
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | 
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii) | Medium | 
