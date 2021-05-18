@@ -65,7 +65,7 @@
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | Medium | 
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | Medium | 
 | 65 | [Valid Number](https://leetcode.com/problems/valid-number) | Hard | 
-| 66 | [Plus One](https://leetcode.com/problems/plus-one) | Easy | 
+| 66 | [Plus One](https://leetcode.com/problems/plus-one) | Easy | [Go](algorithms/plus-one/plus-one.go)
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary) | Easy | 
 | 68 | [Text Justification](https://leetcode.com/problems/text-justification) | Hard | 
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | Easy | 

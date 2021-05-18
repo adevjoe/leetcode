@@ -61,6 +61,9 @@ func TestUniquePaths(t *testing.T) {
 
 	for _, s := range cases {
 		t.Run(s.desc, func(t *testing.T) {
+			if got := uniquePaths(s.m, s.n); got != s.want {
+				t.Errorf("m: %d, n: %d, want: %d, got: %d", s.m, s.n, s.want, got)
+			}
 			if got := uniquePaths2(s.m, s.n); got != s.want {
 				t.Errorf("m: %d, n: %d, want: %d, got: %d", s.m, s.n, s.want, got)
 			}
