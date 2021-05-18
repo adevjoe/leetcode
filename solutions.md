@@ -61,7 +61,7 @@
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii) | Medium | 
 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | Hard | 
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list) | Medium | [Go](algorithms/rotate-list/rotate-list.go)
-| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths) | Medium | 
+| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths) | Medium | [Go](algorithms/unique-paths/unique-paths.go)
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii) | Medium | 
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | Medium | 
 | 65 | [Valid Number](https://leetcode.com/problems/valid-number) | Hard | 
