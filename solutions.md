@@ -68,7 +68,7 @@
 | 66 | [Plus One](https://leetcode.com/problems/plus-one) | Easy | [Go](algorithms/plus-one/plus-one.go)
 | 67 | [Add Binary](https://leetcode.com/problems/add-binary) | Easy | 
 | 68 | [Text Justification](https://leetcode.com/problems/text-justification) | Hard | 
-| 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | Easy | 
+| 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx) | Easy | [Go](algorithms/sqrtx/sqrtx.go)
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | Easy | 
 | 71 | [Simplify Path](https://leetcode.com/problems/simplify-path) | Medium | 
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance) | Hard | 
