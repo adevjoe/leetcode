@@ -6,8 +6,8 @@ import (
 )
 
 func TestDivideTwoIntegers(t *testing.T) {
-	fmt.Println(3<<2)
-	fmt.Println(1>>1)
+	fmt.Println(3 << 2)
+	fmt.Println(1 >> 1)
 	cases := []struct {
 		desc     string
 		dividend int

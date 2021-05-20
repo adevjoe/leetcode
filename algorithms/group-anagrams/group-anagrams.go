@@ -9,7 +9,7 @@ func groupAnagrams(strs []string) [][]string {
 	for i := range strs {
 		tmp := 1
 		for j := range strs[i] {
-			tmp *= seeds[int(strs[i][j] - 'a')]
+			tmp *= seeds[int(strs[i][j]-'a')]
 		}
 		m[tmp] = append(m[tmp], i)
 	}

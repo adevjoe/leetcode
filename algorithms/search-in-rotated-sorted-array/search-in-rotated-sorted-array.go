@@ -45,7 +45,7 @@ func search(nums []int, target int) int {
 }
 
 func getMidIndex(left, right int) int {
-	return (right - left + 1) / 2 + left
+	return (right-left+1)/2 + left
 }
 
 func searchSub(nums []int, target, from int) int {

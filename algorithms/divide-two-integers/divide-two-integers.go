@@ -5,7 +5,7 @@ package leetcode
 func divide(dividend int, divisor int) int {
 	flag := false
 	if dividend < 0 {
-		dividend = - dividend
+		dividend = -dividend
 		flag = true
 	}
 	if divisor < 0 {
