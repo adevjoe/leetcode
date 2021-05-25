@@ -72,7 +72,7 @@
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | Easy | [Go](algorithms/climbing-stairs/climbing-stairs.go)
 | 71 | [Simplify Path](https://leetcode.com/problems/simplify-path) | Medium | 
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance) | Hard | 
-| 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | Medium | 
+| 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes) | Medium | [Go](algorithms/set-matrix-zeroes/set-matrix-zeroes.go)
 | 74 | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix) | Medium | 
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors) | Medium | 
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) | Hard | 
