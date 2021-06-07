@@ -78,7 +78,7 @@
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring) | Hard | [Go](algorithms/minimum-window-substring/minimum-window-substring.go)
 | 77 | [Combinations](https://leetcode.com/problems/combinations) | Medium | 
 | 78 | [Subsets](https://leetcode.com/problems/subsets) | Medium | [Go](algorithms/subsets/subsets.go)
-| 79 | [Word Search](https://leetcode.com/problems/word-search) | Medium | 
+| 79 | [Word Search](https://leetcode.com/problems/word-search) | Medium | [Go](algorithms/word-search/word-search.go)
 | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) | Medium | 
 | 81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | Medium | 
 | 82 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | Medium | 
