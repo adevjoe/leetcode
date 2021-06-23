@@ -83,11 +83,11 @@
 | 81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | Medium | 
 | 82 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | Medium | 
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | Easy | 
-| 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) | Hard | 
+| 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram) | Hard | [Go](algorithms/largest-rectangle-in-histogram/largest-rectangle-in-histogram.go)
 | 85 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle) | Hard | 
 | 86 | [Partition List](https://leetcode.com/problems/partition-list) | Medium | [Go](algorithms/partition-list/partition-list.go)
 | 87 | [Scramble String](https://leetcode.com/problems/scramble-string) | Hard | 
-| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | Easy | 
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | Easy | [Go](algorithms/merge-sorted-array/merge-sorted-array.go)
 | 89 | [Gray Code](https://leetcode.com/problems/gray-code) | Medium | 
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii) | Medium | 
 | 91 | [Decode Ways](https://leetcode.com/problems/decode-ways) | Medium | 
