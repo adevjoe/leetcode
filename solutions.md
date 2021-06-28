@@ -90,7 +90,7 @@
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array) | Easy | [Go](algorithms/merge-sorted-array/merge-sorted-array.go)
 | 89 | [Gray Code](https://leetcode.com/problems/gray-code) | Medium | 
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii) | Medium | 
-| 91 | [Decode Ways](https://leetcode.com/problems/decode-ways) | Medium | 
+| 91 | [Decode Ways](https://leetcode.com/problems/decode-ways) | Medium | [Go](algorithms/decode-ways/decode-ways.go)
 | 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | Medium | 
 | 93 | [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses) | Medium | 
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | Medium | [Go](algorithms/binary-tree-inorder-traversal/binary-tree-inorder-traversal.go)
