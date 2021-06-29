@@ -117,7 +117,7 @@
 | 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences) | Hard | 
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node) | Medium | [Go](algorithms/populating-next-right-pointers-in-each-node/populating-next-right-pointers-in-each-node.go)
 | 117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii) | Medium | [Go](algorithms/populating-next-right-pointers-in-each-node-ii/populating-next-right-pointers-in-each-node-ii.go)
-| 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle) | Easy | 
+| 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle) | Easy | [Go](algorithms/pascals-triangle/pascals-triangle.go)
 | 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii) | Easy | 
 | 120 | [Triangle](https://leetcode.com/problems/triangle) | Medium | 
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | Easy | 
