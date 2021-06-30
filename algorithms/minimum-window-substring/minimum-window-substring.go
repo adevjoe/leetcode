@@ -14,7 +14,7 @@ func minWindow(s string, t string) string {
 	)
 	cache := make(map[uint8]int)
 	for i := range t {
-		cache[t[i]] ++
+		cache[t[i]]++
 	}
 	for end < len(s) {
 		if cache[s[end]] > 0 {
@@ -34,7 +34,7 @@ func minWindow(s string, t string) string {
 		}
 		end++
 	}
-	if minlen == math.MaxInt64{
+	if minlen == math.MaxInt64 {
 		return ""
 	}
 	return s[minStart : minStart+minlen+1]
