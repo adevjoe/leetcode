@@ -124,7 +124,7 @@
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) | Easy | [Go](algorithms/best-time-to-buy-and-sell-stock-ii/best-time-to-buy-and-sell-stock-ii.go)
 | 123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii) | Hard | 
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum) | Hard | [Go](algorithms/binary-tree-maximum-path-sum/binary-tree-maximum-path-sum.go)
-| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | Easy | 
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | Easy | [Go](algorithms/valid-palindrome/valid-palindrome.go)
 | 126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii) | Hard | 
 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder) | Hard | 
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence) | Hard | 
