@@ -36,3 +36,5 @@ new:
 
 finish:
 	@./leetcode.py -f --id $(id)
+
+ff: new finish
