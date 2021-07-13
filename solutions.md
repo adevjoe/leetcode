@@ -135,7 +135,7 @@
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph) | Medium | 
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station) | Medium | [Go](algorithms/gas-station/gas-station.go)
 | 135 | [Candy](https://leetcode.com/problems/candy) | Hard | 
-| 136 | [Single Number](https://leetcode.com/problems/single-number) | Easy | 
+| 136 | [Single Number](https://leetcode.com/problems/single-number) | Easy | [Go](algorithms/single-number/single-number.go)
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | Medium | 
 | 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer) | Medium | 
 | 139 | [Word Break](https://leetcode.com/problems/word-break) | Medium | 
