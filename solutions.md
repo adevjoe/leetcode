@@ -137,7 +137,7 @@
 | 135 | [Candy](https://leetcode.com/problems/candy) | Hard | 
 | 136 | [Single Number](https://leetcode.com/problems/single-number) | Easy | [Go](algorithms/single-number/single-number.go)
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii) | Medium | 
-| 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer) | Medium | 
+| 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer) | Medium | [Go](algorithms/copy-list-with-random-pointer/copy-list-with-random-pointer.go)
 | 139 | [Word Break](https://leetcode.com/problems/word-break) | Medium | 
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii) | Hard | 
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | Easy | 
