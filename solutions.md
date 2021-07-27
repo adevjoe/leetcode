@@ -154,7 +154,7 @@
 | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray) | Medium | [Go](algorithms/maximum-product-subarray/maximum-product-subarray.go)
 | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) | Medium | 
 | 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii) | Hard | 
-| 155 | [Min Stack](https://leetcode.com/problems/min-stack) | Easy | 
+| 155 | [Min Stack](https://leetcode.com/problems/min-stack) | Easy | [Go](algorithms/min-stack/min-stack.go)
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | Easy | 
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element) | Medium | 
 | 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap) | Hard | 
