@@ -156,7 +156,7 @@
 | 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii) | Hard | 
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack) | Easy | [Go](algorithms/min-stack/min-stack.go)
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists) | Easy | [Go](algorithms/intersection-of-two-linked-lists/intersection-of-two-linked-lists.go)
-| 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element) | Medium | 
+| 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element) | Medium | [Go](algorithms/find-peak-element/find-peak-element.go)
 | 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap) | Hard | 
 | 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers) | Medium | 
 | 166 | [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal) | Medium | 
