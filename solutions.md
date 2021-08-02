@@ -163,7 +163,7 @@
 | 167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | Easy | 
 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title) | Easy | 
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element) | Easy | [Go](algorithms/majority-element/majority-element.go)
-| 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number) | Easy | 
+| 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number) | Easy | [Go](algorithms/excel-sheet-column-number/excel-sheet-column-number.go)
 | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes) | Easy | 
 | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator) | Medium | [Go](algorithms/binary-search-tree-iterator/binary-search-tree-iterator.go)
 | 174 | [Dungeon Game](https://leetcode.com/problems/dungeon-game) | Hard | 
