@@ -171,7 +171,7 @@
 | 176 | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary) | Easy | 
 | 177 | [Nth Highest Salary](https://leetcode.com/problems/nth-highest-salary) | Medium | 
 | 178 | [Rank Scores](https://leetcode.com/problems/rank-scores) | Medium | 
-| 179 | [Largest Number](https://leetcode.com/problems/largest-number) | Medium | 
+| 179 | [Largest Number](https://leetcode.com/problems/largest-number) | Medium | [Go](algorithms/largest-number/largest-number.go)
 | 180 | [Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers) | Medium | 
 | 181 | [Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers) | Easy | 
 | 182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails) | Easy | 
