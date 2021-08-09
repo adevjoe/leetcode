@@ -181,7 +181,7 @@
 | 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences) | Medium | 
 | 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv) | Hard | 
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array) | Medium | [Go](algorithms/rotate-array/rotate-array.go)
-| 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | Easy | 
+| 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | Easy | [Go](algorithms/reverse-bits/reverse-bits.go)
 | 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | Easy | 
 | 192 | [Word Frequency](https://leetcode.com/problems/word-frequency) | Medium | 
 | 193 | [Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers) | Easy | 
