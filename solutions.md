@@ -191,7 +191,7 @@
 | 197 | [Rising Temperature](https://leetcode.com/problems/rising-temperature) | Easy | 
 | 198 | [House Robber](https://leetcode.com/problems/house-robber) | Medium | [Go](algorithms/house-robber/house-robber.go)
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view) | Medium | [Go](algorithms/binary-tree-right-side-view/binary-tree-right-side-view.go)
-| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands) | Medium | 
+| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands) | Medium | [Go](algorithms/number-of-islands/number-of-islands.go)
 | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | Medium | 
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | Easy | 
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | Easy | 
