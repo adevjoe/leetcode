@@ -7,8 +7,7 @@ all: fmt test
 	@echo "All done."
 
 test: check-dir
-	@echo "testing..."
-	@go test -race -coverprofile ./output/coverage.out $(ALGORITHMS_DIR)/... -tags=ci
+	@./unit-test.sh
 
 fmt:
 	@./fmt.sh
