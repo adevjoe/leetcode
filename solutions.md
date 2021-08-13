@@ -193,7 +193,7 @@
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view) | Medium | [Go](algorithms/binary-tree-right-side-view/binary-tree-right-side-view.go)
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands) | Medium | [Go](algorithms/number-of-islands/number-of-islands.go)
 | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | Medium | 
-| 202 | [Happy Number](https://leetcode.com/problems/happy-number) | Easy | 
+| 202 | [Happy Number](https://leetcode.com/problems/happy-number) | Easy | [Go](algorithms/happy-number/happy-number.go)
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | Easy | 
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes) | Easy | 
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | Easy | 
