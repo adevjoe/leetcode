@@ -195,7 +195,7 @@
 | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range) | Medium | 
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number) | Easy | [Go](algorithms/happy-number/happy-number.go)
 | 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements) | Easy | 
-| 204 | [Count Primes](https://leetcode.com/problems/count-primes) | Easy | 
+| 204 | [Count Primes](https://leetcode.com/problems/count-primes) | Easy | [Go](algorithms/count-primes/count-primes.go)
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings) | Easy | 
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | Easy | 
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule) | Medium | 
